@@ -4,7 +4,7 @@
 - kafka-python import was producing error so had to install from a git branch: pip install --break-system-packages git+https://github.com/dpkp/kafka-python.git
 - kafka topic to which producer writes is called 'raw_iot_data'
 
-# run insstructions (3 Nov)
+# run instructions (3 Nov)
 - start zookeeper and kafka server in WSL
 - run producer.py to write data every 2 secs to 'raw_iot_data' topic
 - check data using consumer.py script or directly using kafka console consumer
